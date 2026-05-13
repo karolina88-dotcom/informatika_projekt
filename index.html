@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KL Dřevovýroba</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+    <!-- HEADER & INTRO SECTION -->
+    <header class="max-w-6xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Left: Title & Intro -->
+            <div class="md:col-span-2 space-y-6">
+                <h1 class="text-5xl font-bold tracking-tight text-slate-900 border-b-4 border-amber-500 inline-block pb-2">
+                    KL Dřevovýroba
+                </h1>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                    <h2 class="text-xl font-semibold mb-4 text-amber-700">ÚVODNÍ TEXT</h2>
+                    <p class="text-slate-600 leading-relaxed text-lg">
+Dřevo má charakter a my mu dáváme tvar. Jsme malá dílna, kde vznikají výrobky z masivu, dělané s respektem, trpělivostí a smyslem pro detail.
+Každý kus, který projde našima rukama, má svůj příběh – od pečlivého výběru materiálu až po finální úpravu. Věříme v poctivé řemeslo, které spojuje tradiční postupy s moderním přístupem, a proto tvoříme výrobky, jež vydrží nejen roky, ale i generace. Naším cílem není jen funkčnost, ale i krása a jedinečnost, která vynikne v každém prostoru.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right: Logo & Contact -->
+            <div class="space-y-6">
+                <!-- Logo Placeholder -->
+                <div class="aspect-square bg-white rounded-2xl border border-slate-200 shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src=image.jfif alt="Logo firmy" class="w-full h-full object-cover">
+                    
+                </div>
+
+                <!-- Contact Box -->
+                <div class="bg-amber-600 text-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-lg font-bold mb-3 uppercase tracking-wider">Kontakt</h3>
+                    <div class="space-y-2 text-amber-50">
+                        <p class="flex items-center gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4"></i>
+                            Hlavní Ulice 123, 110 00 Praha
+                        </p>
+                        <p class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4"></i>
+                            +420 123 456 789
+                        </p>
+                        <p class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            info@nazevfirmy.cz
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- AREAS OF WORK (OBLASTI) -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="bg-slate-200/50 rounded-xl p-4 mb-8">
+            <h2 class="text-2xl font-bold text-center text-slate-700 tracking-[0.2em] uppercase">Oblasti Působení</h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Tesařství -->
+            <a href="tesarstvi.html" class="block">
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-shadow cursor-pointer">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="hammer"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-4 border-b pb-2">TESAŘSTVÍ</h3>
+                    <ul class="space-y-2 text-slate-600 text-sm">
+                        <li>• Výroba krovů</li>
+                        <li>• Stavba pergol a teras</li>
+                        <li>• Dřevostavby</li>
+                        <li>• Rekonstrukce střech</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Pokrývačství -->
+            <a href="pokryvacstvi.html" class="block">
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-shadow cursor-pointer">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="home"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-4 border-b pb-2">POKRÝVAČSTVÍ</h3>
+                    <ul class="space-y-2 text-slate-600 text-sm">
+                        <li>• Pokládka krytin</li>
+                        <li>• Klempířské práce</li>
+                        <li>• Opravy zatékání</li>
+                        <li>• Montáž střešních oken</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Truhlářství -->
+            <a href="truhlarstvi.html" class="block">
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-shadow cursor-pointer">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-700 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-4 border-b pb-2">TRUHLÁŘSTVÍ</h3>
+                    <ul class="space-y-2 text-slate-600 text-sm">
+                        <li>• Nábytek na míru</li>
+                        <li>• Kuchyňské linky</li>
+                        <li>• Interiérové dveře</li>
+                        <li>• Masivní schodiště</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Výškové Práce -->
+            <a href="vyskove-prace.html" class="block">
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-shadow cursor-pointer">
+                    <div class="w-12 h-12 bg-green-100 text-green-700 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="mountain"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-4 border-b pb-2 leading-tight">VÝŠKOVÉ PRÁCE <br><span class="text-sm font-normal">(KÁCENÍ)</span></h3>
+                    <ul class="space-y-2 text-slate-600 text-sm">
+                        <li>• Rizikové kácení stromů</li>
+                        <li>• Prořezávání větví</li>
+                        <li>• Čištění okapů</li>
+                        <li>• Nátěry ve výškách</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="flex items-center gap-4 mb-8">
+            <h2 class="text-xl font-bold bg-slate-800 text-white px-4 py-1 rounded">FOTOGALERIE</h2>
+            <div class="h-px bg-slate-300 flex-grow"></div>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <img src="https://images.unsplash.com/photo-1589939705384-5185138a04b9?auto=format&fit=crop&q=80&w=400" alt="Práce 1" class="rounded-lg h-48 w-full object-cover hover:opacity-90 transition-opacity cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1504148455328-497c596d229f?auto=format&fit=crop&q=80&w=400" alt="Práce 2" class="rounded-lg h-48 w-full object-cover hover:opacity-90 transition-opacity cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1449247704656-13621df5ee70?auto=format&fit=crop&q=80&w=400" alt="Práce 3" class="rounded-lg h-48 w-full object-cover hover:opacity-90 transition-opacity cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=400" alt="Práce 4" class="rounded-lg h-48 w-full object-cover hover:opacity-90 transition-opacity cursor-pointer">
+        </div>
+    </section>
+
+    <!-- FOOTER SOCIALS -->
+    <footer class="bg-white border-t border-slate-200 mt-12 py-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+                <!-- IG -->
+                <a href="#" class="group flex flex-col items-center gap-2">
+                    <div class="p-3 rounded-full bg-slate-100 group-hover:bg-pink-100 group-hover:text-pink-600 transition-colors">
+                        <i data-lucide="instagram"></i>
+                    </div>
+                    <span class="text-xs font-bold text-slate-500">IG</span>
+                </a>
+                <!-- FB -->
+                <a href="#" class="group flex flex-col items-center gap-2">
+                    <div class="p-3 rounded-full bg-slate-100 group-hover:bg-blue-100 group-hover:text-blue-600 transition-colors">
+                        <i data-lucide="facebook"></i>
+                    </div>
+                    <span class="text-xs font-bold text-slate-500">FB</span>
+                </a>
+                <!-- WA -->
+                <a href="#" class="group flex flex-col items-center gap-2">
+                    <div class="p-3 rounded-full bg-slate-100 group-hover:bg-green-100 group-hover:text-green-600 transition-colors">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <span class="text-xs font-bold text-slate-500">WA</span>
+                </a>
+                <!-- TEL -->
+                <a href="tel:+420123456789" class="group flex flex-col items-center gap-2">
+                    <div class="p-3 rounded-full bg-slate-100 group-hover:bg-slate-800 group-hover:text-white transition-colors">
+                        <i data-lucide="phone"></i>
+                    </div>
+                    <span class="text-xs font-bold text-slate-500">TEL</span>
+                </a>
+                <!-- EMAIL -->
+                <a href="mailto:info@nazevfirmy.cz" class="group flex flex-col items-center gap-2">
+                    <div class="px-4 py-3 rounded-full bg-slate-800 text-white hover:bg-amber-600 transition-colors">
+                        <span class="text-sm font-bold">EMAIL</span>
+                    </div>
+                </a>
+            </div>
+            <p class="text-center text-slate-400 text-sm mt-10">
+                &copy; 2023 Název Firmy. Všechna práva vyhrazena.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
+
+

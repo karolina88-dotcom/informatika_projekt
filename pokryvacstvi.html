@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokrývačství | Řemeslné Práce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: "Inter", sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+    <!-- HEADER -->
+    <header class="max-w-6xl mx-auto px-4 py-8">
+        <div class="flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">
+                ← Zpět na hlavní stránku
+            </a>
+            <h1 class="text-3xl font-bold text-blue-700">POKRÝVAČSTVÍ</h1>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+            <div class="w-16 h-16 bg-blue-100 text-blue-700 rounded-lg flex items-center justify-center mb-6">
+                <i data-lucide="home"></i>
+            </div>
+            <h2 class="text-2xl font-bold mb-6">Naše Pokrývačské Služby</h2>
+            <p class="text-slate-600 leading-relaxed mb-6">
+                Kompletní pokrývačské služby pro všechny typy střech. 
+                Specializujeme se na pokládku krytin, klempířské práce a opravy zatékání.
+            </p>
+            <ul class="space-y-3 text-slate-700">
+                <li class="flex items-start gap-3">
+                    <i data-lucide="check" class="w-5 h-5 text-green-600 mt-0.5"></i>
+                    <span><strong>Pokládka krytin:</strong> Všechny druhy střešních materiálů</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <i data-lucide="check" class="w-5 h-5 text-green-600 mt-0.5"></i>
+                    <span><strong>Klempířské práce:</strong> Okapy, svody, oplechování</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <i data-lucide="check" class="w-5 h-5 text-green-600 mt-0.5"></i>
+                    <span><strong>Opravy zatékání:</strong> Diagnostika a řešení problémů</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <i data-lucide="check" class="w-5 h-5 text-green-600 mt-0.5"></i>
+                    <span><strong>Montáž střešních oken:</strong> Větrání a světlo</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
